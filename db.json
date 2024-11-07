@@ -1,0 +1,127 @@
+{
+    "doctors": [
+      {
+        "id": "medico_1",
+        "nome": "Dr. João Silva",
+        "CRI": "123456",
+        "sexo": "Masculino",
+        "especialidade": "Cardiologia",
+        "dataNascimento": "1975-04-20",
+        "email": "joao.silva@hospital.com",
+        "senha": "senha123",
+        "deleted": false,
+        "role": "medico"
+      },
+      {
+        "id": "medico_2",
+        "nome": "Dra. Maria Souza",
+        "CRI": "234567",
+        "sexo": "Feminino",
+        "especialidade": "Pediatria",
+        "dataNascimento": "1980-08-15",
+        "email": "maria.souza@hospital.com",
+        "senha": "senha123",
+        "deleted": false,
+        "role": "medico"
+      }
+    ],
+    "patients": [
+      {
+        "id": "paciente_1",
+        "nome": "Carlos Santos",
+        "CPF": "12345678901",
+        "sexo": "Masculino",
+        "dataNascimento": "1990-03-10",
+        "estadoCivil": "Solteiro",
+        "email": "carlos.santos@exemplo.com",
+        "senha": "senha123",
+        "deleted": false,
+        "role": "paciente"
+      },
+      {
+        "id": "paciente_2",
+        "nome": "Ana Clara",
+        "CPF": "98765432100",
+        "sexo": "Feminino",
+        "dataNascimento": "1985-07-22",
+        "estadoCivil": "Casada",
+        "email": "ana.clara@exemplo.com",
+        "senha": "senha123",
+        "deleted": false,
+        "role": "paciente"
+      },
+      {
+        "id": "paciente_3",
+        "nome": "Pedro Albuquerque",
+        "CPF": "56789012345",
+        "sexo": "Masculino",
+        "dataNascimento": "1978-12-05",
+        "estadoCivil": "Divorciado",
+        "email": "pedro.albuquerque@exemplo.com",
+        "senha": "senha123",
+        "deleted": false,
+        "role": "paciente"
+      }
+    ],
+    "appointments": [
+      {
+        "id": "consulta_1",
+        "idMedico": "medico_1",
+        "idPaciente": "paciente_1",
+        "dataHorario": "2024-11-10T10:00:00Z"
+      },
+      {
+        "id": "consulta_2",
+        "idMedico": "medico_2",
+        "idPaciente": "paciente_2",
+        "dataHorario": "2024-11-11T15:00:00Z"
+      },
+      {
+        "id": "consulta_3",
+        "idMedico": "medico_1",
+        "idPaciente": "paciente_3",
+        "dataHorario": "2024-11-12T09:00:00Z"
+      }
+    ],
+    "exams": [
+      {
+        "id": "exame_1",
+        "idMedico": "medico_1",
+        "idPaciente": "paciente_1",
+        "resultado": "Normal",
+        "dataHorario": "2024-11-10T11:00:00Z",
+        "nomeExame": "Hemograma Completo"
+      },
+      {
+        "id": "exame_2",
+        "idMedico": "medico_2",
+        "idPaciente": "paciente_2",
+        "resultado": "Anemia leve",
+        "dataHorario": "2024-11-11T16:00:00Z",
+        "nomeExame": "Hemograma Completo"
+      },
+      {
+        "id": "exame_3",
+        "idMedico": "medico_1",
+        "idPaciente": "paciente_3",
+        "resultado": "Colesterol alto",
+        "dataHorario": "2024-11-12T10:00:00Z",
+        "nomeExame": "Perfil Lipídico"
+      }
+    ],
+    "logs": [
+      {
+        "id": "log_1",
+        "nome": "Carlos Santos",
+        "dataHorario": "2024-11-05T08:30:00Z",
+        "role": "paciente"
+      },
+      {
+        "id": "log_2",
+        "nome": "Dra. Maria Souza",
+        "dataHorario": "2024-11-05T09:00:00Z",
+        "role": "medico"
+      }
+    ]
+  }
+  

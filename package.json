@@ -1,0 +1,14 @@
+{
+  "name": "selenium_json_server_api",
+  "version": "1.0.0",
+  "description": "json server for hospital application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eduardo Duarte Derisso",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
